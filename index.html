@@ -727,7 +727,7 @@ function Overview({ goTo }) {
           Kvalitetsvurdering av to samtidige retningslinjer for ME/CFS
         </h1>
         <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 14, color: COLOR_MUTED, fontStyle: 'italic', margin: '0 0 20px' }}>
-          Utarbeidet av Halvard Nordang
+          Utarbeidet av Halvard Nordang med hjelp av kunstig intelligens (Anthropic Claude Opus 4.7)
         </p>
         <p style={{ fontSize: 18, lineHeight: 1.55, color: COLOR_MUTED, maxWidth: 720, margin: 0 }}>
           Synkron AGREE II-evaluering av NICE NG206 (Storbritannia, 2021) og Helsedirektoratets
@@ -1621,7 +1621,7 @@ function Dashboard() {
         {section === 'scoring' && <ScoringSheet />}
         {section === 'evolution' && <Evolution />}
         {section === 'dissent' && <Dissent />}
-        {section === 'horing' && <DocumentViewer title="Høringsinnspill — Nasjonal faglig retningslinje for langvarig utmattelse, inkl. ME/CFS" subtitle="Til Helsedirektoratet. Høringsfrist 4. mai 2026. Utarbeidet av Halvard Nordang." html={HORING_DOCUMENT_HTML} />}
+        {section === 'horing' && <DocumentViewer title="Høringsinnspill — Nasjonal faglig retningslinje for langvarig utmattelse, inkl. ME/CFS" subtitle="Til Helsedirektoratet. Høringsfrist 4. mai 2026. Utarbeidet av Halvard Nordang med hjelp av kunstig intelligens (Anthropic Claude Opus 4.7)." html={HORING_DOCUMENT_HTML} />}
         {section === 'about' && <About />}
       </main>
       <footer style={{ borderTop: `1px solid ${COLOR_BORDER}`, marginTop: 64, padding: '24px', fontFamily: 'Inter, sans-serif', fontSize: 12, color: COLOR_MUTED, textAlign: 'center' }}>
